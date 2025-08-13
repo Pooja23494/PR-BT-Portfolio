@@ -141,8 +141,18 @@ header {
     font-family: 'Ubuntu Sans';
 }
 
-.hero-content .hero-text p {
+.hero-content .hero-text .lead {
     font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #ececec;
+}
+
+.hero .hero-text .lead span {
+    color: #ececec;
+    font-weight: 600;
+    border-bottom: 2px solid #ececec;
+    padding-bottom: 2px;
 }
 
 .hero-content .hero-text .description {

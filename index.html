@@ -143,8 +143,11 @@
                                 <h1 class="text-white mb-3">Snap<span class="accent-text">Folio</span>
                                 </h1>
                                 <h2 class="text-white fw-semibold mb-2">Alexander Chen</h2>
-                                <p class="text-white mb-4 fw-normal">I'm a <span class="text-decoration-underline">Web
-                                        Developer</span></p>
+                                <p class="lead">
+                                    I'm a <span class="typed"
+                                        data-typed-items="UI/UX Designer, Front-End Developer, Web Developer, Full-Stack Developer">Crea</span>
+                                    <span class="typed-cursor" aria-hidden="true"></span>
+                                </p>
                                 <p class="description mb-5">Passionate about creating exceptional digital experiences
                                     that blend innovative design with functional development. Let's bring your vision to
                                     life.</p>
@@ -1215,6 +1218,20 @@
             class="bi bi-arrow-up-short"></i></a>
     <!-- Footer Section End -->
     <script src="./assest/js/bootstrap.bundle.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let typed_items = document.querySelector('.typed').getAttribute('data-typed-items').split(',');
+            new Typed('.typed', {
+                strings: typed_items.map(item => item.trim()),
+                typeSpeed: 100,
+                backSpeed: 50,
+                backDelay: 2000,
+                loop: true
+            });
+        });
+    </script>
 </body>
 
 </html>
