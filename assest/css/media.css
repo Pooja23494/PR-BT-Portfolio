@@ -93,6 +93,10 @@
     header {
         left: -100%;
     }
+
+    .offcanvas-xl {
+        position: static !important;
+    }
 }
 
 @media (min-width: 1200px) {
