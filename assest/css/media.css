@@ -93,14 +93,9 @@
     header {
         left: -100%;
     }
-<<<<<<< HEAD
 
     .offcanvas-xl {
         position: static !important;
-=======
-    .offcanvas-xl{
-        position: sticky !important;
->>>>>>> a50f8a4542ed7b4836f58a0a0884160c3bcdf3e2
     }
 }
 
